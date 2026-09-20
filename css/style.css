@@ -17,9 +17,52 @@ body {
 }
 
 img {
-    width: 50%;
+    width: 40%;
     border-radius: 30px;
     display: block;
     margin: auto;
 }
 
+.accessiblefont1{
+    font-family: Verdana;
+}
+
+.accessiblefont2{
+    font-family: Open Sans;
+}
+
+.accessibilefont3{
+    font-family: Tahoma;
+}
+
+.button{
+    background-color: lightgray;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px;
+}
+
+#header{
+    background-color: lightgray;
+    text-align: center;
+}
+
+#section1{
+    background-color: gold;
+}
+
+#section2{
+    background-color: lightblue;
+}
+
+#section3{
+    background-color: lightcoral;
+}
+
+#citation{
+    font-size: 12px;
+}
