@@ -1,0 +1,25 @@
+header{
+    background-color: lightgray;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+body {
+    background-color: lightyellow;
+}
+
+* {
+    font-family: Arial;
+}
+
+img {
+    width: 50%;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+}
+
