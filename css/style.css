@@ -52,6 +52,11 @@ img {
     text-align: center;
 }
 
+#page_2_header{
+    background-color: lightgreen;
+    text-align: center;
+}
+
 #section1{
     width: 30%;
     background-color: gold;
