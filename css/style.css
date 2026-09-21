@@ -18,7 +18,7 @@ body {
 
 img {
     width: 40%;
-    border-radius: 30px;
+    border-radius: 20px;
     display: block;
     margin: auto;
 }
@@ -36,6 +36,7 @@ img {
 }
 
 .button{
+    width: 20%;
     background-color: lightgray;
     color: black;
     padding: 15px;
@@ -46,21 +47,30 @@ img {
     margin: 10px;
 }
 
-#header{
-    background-color: lightgray;
+#main_page_header{
+    background-color: lightcyan;
     text-align: center;
 }
 
 #section1{
+    width: 30%;
     background-color: gold;
+    border: 1px solid black;
+    padding: 10px;
 }
 
 #section2{
+    width: 30%;
     background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
 }
 
 #section3{
+    width: 30%;
     background-color: lightcoral;
+    border: 1px solid black;
+    padding: 10px;
 }
 
 #citation{
