@@ -1,21 +1,27 @@
+/* Styles the top banner of the page: gray background, centered text */
 header{
     background-color: lightgray;
     text-align: center;
 }
 
+/* Styles all <h3> headings: larger font size, centered */
 h3 {
     font-size: 30px;
     text-align: center;
 }
 
+/* Sets the background color for the whole page */
 body {
     background-color: lightyellow;
 }
 
+/* Universal selector: applies Arial to every element on the page */
 * {
     font-family: Arial;
 }
 
+/* Styles all images: resizes to 40% width, rounds the corners, 
+   and centers them horizontally using margin: auto */
 img {
     width: 40%;
     border-radius: 20px;
@@ -23,18 +29,23 @@ img {
     margin: auto;
 }
 
+/* Accessible font option 1: Verdana */
 .accessiblefont1{
     font-family: Verdana;
 }
 
+/* Accessible font option 2: Open Sans */
 .accessiblefont2{
     font-family: Open Sans;
 }
 
+/* Accessible font option 3: Tahoma */
 .accessibilefont3{
     font-family: Tahoma;
 }
 
+/* Styles clickable buttons: gray background, black text, 
+   padding for spacing */
 .button{
     width: 20%;
     background-color: lightgray;
@@ -47,16 +58,19 @@ img {
     margin: 10px;
 }
 
+/* ID selector for the header on the main page: light cyan background */
 #main_page_header{
     background-color: lightcyan;
     text-align: center;
 }
 
+/* ID selector for the header on page 2: light green background */
 #page_2_header{
     background-color: lightgreen;
     text-align: center;
 }
 
+/* First content section: gold background with a border */
 #section1{
     width: 30%;
     background-color: gold;
@@ -64,6 +78,7 @@ img {
     padding: 10px;
 }
 
+/* Second content section: light blue background with a border */
 #section2{
     width: 30%;
     background-color: lightblue;
@@ -71,6 +86,7 @@ img {
     padding: 10px;
 }
 
+/* Third content section: light coral background with a border */
 #section3{
     width: 30%;
     background-color: lightcoral;
@@ -78,19 +94,22 @@ img {
     padding: 10px;
 }
 
+/* Small text used for citing sources at the bottom of the page */
 #citation{
     font-size: 12px;
 }
-
+/* Wraps the three sections and lays them out side by side using flexbox */
 #section_wrapper{
     display: flex;
     gap: 10px;
 }
 
+/* Makes each section grow equally to fill the flex container and overrides width: 30% above */
 #section1, #section2, #section3 {
     flex: 1;
 }
 
+/* Wraps the footer buttons and centers them using flexbox */
 #footer_buttons{
     display: flex;
     gap: 10px;
