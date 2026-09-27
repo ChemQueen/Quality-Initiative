@@ -96,7 +96,7 @@ img {
 
 /* Small text used for citing sources at the bottom of the page */
 #citation{
-    font-size: 12px;
+    font-size: 16px;
 }
 /* Wraps the three sections and lays them out side by side using flexbox */
 #section_wrapper{
